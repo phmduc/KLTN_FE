@@ -1,0 +1,14 @@
+.wrapperForget {
+  height: 100%;
+}
+.wrapperForget .formForget {
+  padding: 2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.wrapperForget .formForget span.title {
+  margin-bottom: 1rem;
+  display: block;
+  font-size: 2rem;
+  color: var(--primary);
+}

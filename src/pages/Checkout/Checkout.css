@@ -1,0 +1,63 @@
+.checkout input {
+  margin-bottom: 2rem;
+  border: none;
+  border-bottom: 1px solid #898989;
+  padding-bottom: 0.5rem;
+  outline: none !important;
+}
+.checkout span {
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  display: block;
+}
+.checkout .form-group {
+  gap: 1rem;
+}
+.checkout .form-group input {
+  width: 50%;
+}
+.checkout select {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+.checkout .receipt .item .img-wrap {
+  min-width: 20%;
+  padding-top: 15%;
+}
+.checkout .receipt .item {
+  gap: 1rem;
+}
+.checkout .receipt .item:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.checkout .receipt .item .name {
+  line-height: 1.8rem;
+  max-height: 3.6rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-weight: bold;
+}
+.checkout .receipt .item .price {
+  font-weight: bold;
+}
+.checkout .receipt .item .count {
+  text-align: right;
+}
+.checkout .receipt ul {
+  padding: 1rem 0 !important;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.checkout .receipt .totalPrice {
+  font-weight: bold;
+}
+.checkout .information .address-select {
+  margin-bottom: 2rem;
+  gap: 1rem;
+}

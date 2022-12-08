@@ -1,0 +1,36 @@
+.item .img-wrap {
+  display: block;
+}
+.item {
+  margin-bottom: 1rem;
+}
+.item .img-wrap .main {
+  z-index: 2;
+  transition: all 0.3s linear;
+}
+.item .img-wrap .forHover {
+  z-index: 1;
+}
+.item .img-wrap:hover .main {
+  opacity: 0;
+}
+.item .content * {
+  color: black;
+}
+.item .content span {
+  color: #898989;
+}
+.item .content .name {
+  line-height: 1.8rem;
+  max-height: 1.8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.item .content .name:hover,
+.item .content .price:hover {
+  color: var(--primary);
+}

@@ -1,0 +1,44 @@
+.thanks-page {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    h1 {
+        margin-bottom: 15px;
+        font-size: 45px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+    }
+    p {
+        margin: 15px 0;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .mail {
+        display: flex;
+        align-items: center;
+        max-width: 640px;
+        margin: 40px auto;
+        img{
+            max-width: 100px;
+            margin-right: 20px;
+        }
+        p{
+            height: 50px;
+            text-align: left;
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+    .description {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    button {
+        padding: 8px 20px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+}

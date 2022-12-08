@@ -1,0 +1,93 @@
+.w-bannerHero{
+background-color: black;
+}
+.w-bannerHero .title{
+color: white;
+}
+.w-bannerHero .title h1{
+font-size: 1.8rem;
+line-height: 1.6;
+margin: 0;
+font-weight: 500;
+}
+.w-bannerHero .title span{
+display: block;
+margin: 1.5rem 0;
+}
+.w-bannerHero .title a{
+display: inline-block;
+padding: 0.3rem 1rem;
+background-color: var(--primary);
+border: 1px solid var(--primary);
+border-radius: 2px;
+color: black;
+text-decoration: none;
+transition: all 0.3s linear;
+}
+.w-bannerHero .title a:hover{
+background-color: black;
+color: var(--primary);
+}
+.w-bannerHero .img-wrap{
+padding-top: 72%;
+overflow: unset;
+}
+.w-bannerHero .img-wrap img{
+width: 60%;
+box-shadow: 20px -20px 6px 0px var(--primary);
+}
+@media screen and (max-width: 991px) {
+.w-bannerHero .title h1{
+font-size: 1.1rem;
+}
+.w-bannerHero .title span{
+margin: 0.5rem 0;
+font-size: 0.8rem;
+}
+.w-bannerHero .img-wrap {
+padding-top: 100%;
+overflow: unset;
+}
+.w-bannerHero .img-wrap img{
+width: 100%;
+}
+.w-client .list svg{
+width: 60px;
+height: 100px;
+}
+}
+
+
+.w-category .list .item {
+    display: block;
+}
+.w-category .list .item .bg-item{
+position: relative;
+padding-top: 100%;
+display: block;
+}
+.w-category .list .item:hover .bg-item img{
+transform: scale(1.5);
+}
+.w-category .list .item .bg-item img{
+width: 100%;
+filter: brightness(30%);
+transition: all 0.5s linear;
+}
+.w-category .list .item .bg-item span{
+position: absolute;
+color: white;
+z-index: 999;
+top: 50%;
+left: 50%;
+font-size: 1.4rem;
+width: 100%;
+transform: translate(-50%, -50%);
+font-weight: bold;
+}
+
+@media screen and (max-width: 991px) {
+.w-category .list .item .bg-item span{
+font-size: 1.1rem;
+}
+}

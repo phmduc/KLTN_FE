@@ -1,0 +1,79 @@
+.categoryList thead th {
+  position: relative;
+  text-align: center;
+}
+.categoryList thead th:not(:last-child):before {
+  position: absolute;
+  content: "";
+  display: block;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 30%;
+  width: 1px;
+  background-color: rgb(207, 204, 204);
+}
+
+.categoryList tbody td {
+  width: calc(100% / 4);
+  vertical-align: middle;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.categoryList tbody th {
+  vertical-align: middle;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.categoryList tbody td img {
+  width: 40px;
+  height: 30px;
+}
+.categoryList tbody td.controls button:not(:last-child) {
+  margin-right: 1rem;
+}
+.custom-file-input {
+  display: none !important;
+}
+.inputButton {
+  display: block;
+  width: 30%;
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.categoryManage .listPreview {
+  gap: 1rem;
+}
+.formCategory .listPreview .image {
+  width: 100%;
+}
+.categoryManage .listPreview .clearImgButton {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  background: var(--primary);
+  right: 0;
+  border: none;
+  border-radius: 50%;
+  color: white;
+}
+.categoryManage .listPreview .clearImgButton {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  background: var(--primary);
+  right: 0;
+  border: none;
+  border-radius: 50%;
+  color: white;
+}

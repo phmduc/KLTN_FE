@@ -1,0 +1,155 @@
+.view {
+  width: 1000px;
+}
+
+.productList {
+  margin-top: 10px;
+}
+
+.productList .item {
+  align-items: center;
+}
+.productList .item td {
+  vertical-align: middle;
+  /* width: calc(100% / 6); */
+}
+.productList .item td.name {
+  width: 15%;
+}
+.productList .item td.imgs-wrap {
+  width: 15%;
+}
+.imgs {
+  width: 100%;
+}
+
+.productList .item td.price {
+  width: 10%;
+}
+.productList .item td.cate {
+  width: 10%;
+}
+.productList .item td.size {
+  width: 20%;
+  white-space: nowrap;
+}
+.productList .item td.controls {
+  width: 7%;
+  text-align: center;
+}
+.productList .item td.description {
+  width: 25%;
+}
+
+.descriptions {
+  width: 25%;
+  overflow-y: scroll;
+}
+
+.descriptions-sub {
+  height: 125px;
+  vertical-align: top;
+}
+
+.productList .item th {
+  vertical-align: middle;
+}
+.productList .item td.img-wrap {
+  padding-top: 7%;
+}
+
+.productList tbody td.controls button:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.input-size {
+  gap: 1rem;
+}
+.message {
+  color: red;
+}
+.formProduct .group-flex .form-group {
+  width: 50%;
+}
+.formProduct .group-flex-3 .form-group {
+  width: calc(100% / 3);
+}
+.formProduct .form-group {
+  margin-top: 1rem;
+}
+.formProduct .form-group #fileProduct {
+  display: none;
+}
+.formProduct .form-group .fileLabel {
+  display: block;
+  padding: 0.2rem 1rem;
+  background-color: var(--primary);
+  color: white;
+  font-weight: bold;
+  width: max-content;
+  cursor: pointer;
+}
+
+.formProduct .listPreview .item {
+  width: 20%;
+  padding-top: 13.25%;
+}
+.formProduct .listPreview .item button {
+  position: absolute;
+  content: "X";
+  top: 0;
+  right: 0;
+  font-weight: bold;
+  color: var(--primary);
+  border-radius: 100%;
+  background-color: none;
+  border: none;
+}
+.formProduct .addsize {
+  display: block;
+  width: max-content;
+}
+.formProduct .sizePreview {
+  width: 100%;
+}
+.formProduct .sizewrap .clearSize {
+  background-color: var(--primary);
+  border: none;
+  color: white;
+}
+.formProduct .sizewrap {
+  gap: 1rem;
+}
+.formProduct .listPreview {
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.formProduct .listPreview .clearImgButton {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  background: var(--primary);
+  right: 0;
+  border: none;
+  border-radius: 50%;
+  color: white;
+}
+
+.formProduct .listPreview .clearImgButton {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  background: var(--primary);
+  right: 0;
+  border: none;
+  border-radius: 50%;
+  color: white;
+}
+
+.sizeNumber {
+  break-before: auto;
+}
+
+.border {
+  width: 10px;
+}

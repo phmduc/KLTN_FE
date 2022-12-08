@@ -1,0 +1,12 @@
+.OrderManage .item:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.OrderManage .address {
+  width: 20%;
+}
+.OrderManage td {
+  padding-left: 0 !important;
+}
+.OrderManage .tab {
+  gap: 1rem;
+}

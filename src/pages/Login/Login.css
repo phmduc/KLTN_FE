@@ -1,0 +1,108 @@
+/* Login */
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #0F1419;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #0F1419;
+}
+
+.login{
+    position: relative;
+    width: auto;
+    height: 100vh;
+    background-image: url("https://source.unsplash.com/random/1");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login form{
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    padding: 1.5rem;
+    border-radius: 0.3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+}
+
+.login form h1{
+    text-align: center;
+}
+
+.login form p{
+    margin-bottom: 0.5rem;
+    color: #344054;
+}
+
+.login form .form-check{
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+
+.login form .form-check-label{
+    margin-left: .5rem;
+}
+
+.login form a{
+    color: #667085;
+}
+
+.login form .btn-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.login form .save-forget{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.login form .btn-group .btn{
+    margin-bottom: 1rem;
+}
+
+.login form .btn-group .btn-warning{
+    background-color: transparent;
+    color: #e0a800;
+}
+
+.login form .btn-group .btn-light{
+    background-color: transparent;
+    border: 1px solid #D0D5DD;
+}
+
+.login form .btn-group .btn-light .bi-facebook{
+    margin-right: .5rem;
+    color: #1877F2;
+}
+
+.login form .form-group{
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width:992px) {
+    .login form{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:541px) {
+    .login form{
+        width: 90%;
+    }
+}
